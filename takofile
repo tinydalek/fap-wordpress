@@ -1,0 +1,8 @@
+---
+Server: https://deploy.d.evops.co/
+Project: Fiji Albinism Project - Build
+Mappings:
+  -
+    Branch: master
+    Environment: Build
+CreateRelease: true
