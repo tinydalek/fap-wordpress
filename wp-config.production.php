@@ -23,13 +23,13 @@
 define('DB_NAME', 'fijialbinismproject');
 
 /** MySQL database username */
-define('DB_USER', 'fijialbinismproject');
+define('DB_USER', 'DATABASEUSER');
 
 /** MySQL database password */
-define('DB_PASSWORD', '1234');
+define('DB_PASSWORD', 'DATABASEPASSWORD');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'DATABASESERVER');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
@@ -46,14 +46,7 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'mJN(#eJH7_+uwlPjP^}^PW.cG|~hSDgl}rEw8+ol/4% W2~d-.O$G>tl+W_SN;}+');
-define('SECURE_AUTH_KEY',  'O<jqj>:.?.!8DB0qGWyr-KrVc_E`8fAPk_-,om5Ki_+<6NX_tLJ]4S1u7s&OpE}?');
-define('LOGGED_IN_KEY',    '_&Ko&Xv71uq}_78.4YL5^?uS|J8nDcAiAyDmIw)YQ_:Q)-B.2/_-)dxV*FcKy&oJ');
-define('NONCE_KEY',        ']=|r6`?v(0h{zp|@5r*{7Q 37i4BI~!{*-d_nIvri/m(,1[fz]#+Rs(UZ9x=P`}Q');
-define('AUTH_SALT',        '@x~1xJ&ZV^|I7~8@](|,1~yA{+&HCNP.~5B#e{~_Ja9t{N_T8hfd;r^[;Hz{MwfU');
-define('SECURE_AUTH_SALT', 'Wk.z.DRGGxNyF7c@V]EIZm/]a$&!-4V5U]g$_P:y#0AGJNwZMV&_Ei)jyH%d3,#N');
-define('LOGGED_IN_SALT',   'z2&1e-Xy<(AV7e&|sEj/G5J@+<4vQtcMznfq`1PNQjiwKi31}.WYm]QhG})n}a)=');
-define('NONCE_SALT',       'e7v&%v{qGUAuOKadJ7*1@X#[<UDV{=Hw$ii/+gA01lG#Kl#aw[>m9`xNZMw5+M8]');
+PRODUCTIONSALTS
 
 /**#@-*/
 
